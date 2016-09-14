@@ -1,0 +1,241 @@
+[
+  {
+    "name":"# Giant Spider",
+    "units":[
+      {
+        "enemyIdx":1,
+        "x":255,
+        "y":210
+      }
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      {
+        "conditions":[
+          
+        ],
+        "cmds":[
+          {
+            "jsonClass":"ShowText",
+            "lines":[
+              "A massive spider decends from the darkness above you!"
+            ],
+            "useCharacterFace":false,
+            "characterId":0
+          }
+        ],
+        "maxFrequency":1
+      }
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  },
+  {
+    "name":"",
+    "units":[
+      
+    ],
+    "canEscape":true,
+    "escapeChance":0.7,
+    "events":[
+      
+    ]
+  }
+]

@@ -1,0 +1,280 @@
+{
+  "events":[
+    {
+      "id":5,
+      "name":"Event00005",
+      "x":14.5,
+      "y":12.5,
+      "states":[
+        
+      ],
+      "eventClassId":0,
+      "params":[
+        {
+          "jsonClass":"IntParameter",
+          "constant":1,
+          "valueTypeId":0,
+          "localVariable":"itemId",
+          "globalVariable":""
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name":"Start",
+      "x":5.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "What? How'd I get here?",
+                "",
+                "I'm so hungry...",
+                "",
+                "[Press spacebar to interact with objects. The arrow keys move you.]"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":19.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "You find some remains here. Eat them?"
+              ],
+              "choices":[
+                "Yes",
+                "No"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  
+                ],
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Hunger grips you."
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShakeScreen",
+                    "xAmplitude":{
+                      "jsonClass":"FloatParameter",
+                      "constant":20.0,
+                      "valueTypeId":0,
+                      "localVariable":""
+                    },
+                    "yAmplitude":{
+                      "jsonClass":"FloatParameter",
+                      "constant":0.0,
+                      "valueTypeId":0,
+                      "localVariable":""
+                    },
+                    "frequency":{
+                      "jsonClass":"FloatParameter",
+                      "constant":4.0,
+                      "valueTypeId":0,
+                      "localVariable":""
+                    },
+                    "duration":{
+                      "jsonClass":"FloatParameter",
+                      "constant":2.0,
+                      "valueTypeId":0,
+                      "localVariable":""
+                    }
+                  },
+                  {
+                    "jsonClass":"HealOrDamage",
+                    "heal":false,
+                    "wholeParty":false,
+                    "characterId":0,
+                    "hpPercentage":0.5,
+                    "mpPercentage":0.5,
+                    "removeStatusEffects":false
+                  }
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "[Hunger is a rare but real danger. If you can not satiate it, then you lose half your HP and MP.]"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":24.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Darkness and Fear is a game about survival. You've awoken underground, without any skills or abilities. "
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":15.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A crystal hums with energy before you.",
+                "",
+                "[Magic points embody more than your ability to use certain effects. They also indicate how mentally stable your character is. Some encounters will check your magic points, and you'll suffer if the value is too low. Use magic sparingly.]"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"HealOrDamage",
+              "heal":true,
+              "wholeParty":true,
+              "characterId":0,
+              "hpPercentage":0.0,
+              "mpPercentage":1.0,
+              "removeStatusEffects":false
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Your MP has been restored!"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

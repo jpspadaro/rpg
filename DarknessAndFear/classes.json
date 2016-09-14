@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Player",
+    "unarmedAttackSkillId":81,
+    "canUseItems":[
+      
+    ],
+    "effects":[
+      
+    ],
+    "learnedSkills":[
+      
+    ]
+  },
+  {
+    "name":"Unclassed",
+    "unarmedAttackSkillId":0,
+    "canUseItems":[
+      0,
+      1
+    ],
+    "effects":[
+      
+    ],
+    "learnedSkills":[
+      {
+        "level":1,
+        "skillId":0
+      }
+    ]
+  }
+]

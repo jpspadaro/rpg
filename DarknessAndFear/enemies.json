@@ -1,0 +1,66 @@
+[
+  {
+    "name":"Basilisk",
+    "battler":{
+      "name":"sys/Public/basilisk.png",
+      "scale":1.5
+    },
+    "level":50,
+    "mhp":5000,
+    "mmp":40,
+    "atk":1,
+    "spd":10,
+    "mag":1,
+    "arm":1,
+    "mre":1,
+    "expValue":10,
+    "droppedGold":25,
+    "droppedItems":[
+      
+    ],
+    "attackSkillId":64,
+    "effects":[
+      
+    ],
+    "skillIds":[
+      52,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "name":"Giant Spider",
+    "battler":{
+      "name":"sys/Redshrike/spider.png",
+      "scale":3.0
+    },
+    "level":1,
+    "mhp":10,
+    "mmp":40,
+    "atk":10,
+    "spd":10,
+    "mag":10,
+    "arm":10,
+    "mre":10,
+    "expValue":100,
+    "droppedGold":25,
+    "droppedItems":[
+      {
+        "itemId":2,
+        "chance":0.1
+      }
+    ],
+    "attackSkillId":0,
+    "effects":[
+      {
+        "keyId":200,
+        "v1":5,
+        "v2":100
+      }
+    ],
+    "skillIds":[
+      
+    ]
+  }
+]

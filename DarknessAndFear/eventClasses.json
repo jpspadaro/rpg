@@ -113,5 +113,89 @@
         ]
       }
     ]
+  },
+  {
+    "name":"Hunger",
+    "states":[
+      {
+        "conditions":[
+          
+        ],
+        "height":0,
+        "affixDirection":false,
+        "trigger":2,
+        "animationType":0,
+        "runOnceThenIncrementState":true,
+        "cmds":[
+          {
+            "jsonClass":"ShowText",
+            "lines":[
+              "Hunger strikes you!"
+            ],
+            "useCharacterFace":false,
+            "characterId":0
+          },
+          {
+            "jsonClass":"StartBattle",
+            "encounterId":{
+              "jsonClass":"IntParameter",
+              "constant":1,
+              "valueTypeId":0,
+              "localVariable":"",
+              "globalVariable":""
+            }
+          }
+        ]
+      },
+      {
+        "conditions":[
+          
+        ],
+        "height":0,
+        "affixDirection":false,
+        "trigger":1,
+        "animationType":0,
+        "runOnceThenIncrementState":false,
+        "cmds":[
+          
+        ]
+      }
+    ]
+  },
+  {
+    "name":"",
+    "states":[
+      {
+        "conditions":[
+          
+        ],
+        "height":0,
+        "affixDirection":false,
+        "trigger":1,
+        "animationType":0,
+        "runOnceThenIncrementState":false,
+        "cmds":[
+          
+        ]
+      }
+    ]
+  },
+  {
+    "name":"",
+    "states":[
+      {
+        "conditions":[
+          
+        ],
+        "height":0,
+        "affixDirection":false,
+        "trigger":1,
+        "animationType":0,
+        "runOnceThenIncrementState":false,
+        "cmds":[
+          
+        ]
+      }
+    ]
   }
 ]

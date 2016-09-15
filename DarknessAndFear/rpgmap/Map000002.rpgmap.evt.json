@@ -1,6 +1,38 @@
 {
   "events":[
     {
+      "id":5,
+      "name":"Water bowl",
+      "x":6.5,
+      "y":22.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A bowl of water. I wouldn't trust it."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":1,
       "name":"Event00001",
       "x":12.5,
@@ -9,6 +41,70 @@
         
       ],
       "eventClassId":1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":6,
+      "name":"Event00006",
+      "x":8.5,
+      "y":1.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara06_a.png",
+            "spriteIndex":7,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\"I wait for you...\""
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"HealOrDamage",
+              "heal":false,
+              "wholeParty":false,
+              "characterId":0,
+              "hpPercentage":1.0,
+              "mpPercentage":0.5,
+              "removeStatusEffects":true
+            },
+            {
+              "jsonClass":"WeatherEffects",
+              "weatherTypeId":2
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
       "params":[
         
       ]
@@ -42,6 +138,19 @@
         }
       ],
       "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":7,
+      "name":"Event00007",
+      "x":13.5,
+      "y":3.5,
+      "states":[
+        
+      ],
+      "eventClassId":2,
       "params":[
         
       ]
@@ -87,6 +196,69 @@
               "jsonClass":"ModifyParty",
               "add":true,
               "characterId":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Books Shelf Ice",
+      "x":7.5,
+      "y":18.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "You discover an old tome!"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"AddRemoveItem",
+              "add":true,
+              "itemId":{
+                "jsonClass":"IntParameter",
+                "constant":5,
+                "valueTypeId":0,
+                "localVariable":"",
+                "globalVariable":""
+              },
+              "quantity":{
+                "jsonClass":"IntParameter",
+                "constant":1,
+                "valueTypeId":0,
+                "localVariable":"",
+                "globalVariable":""
+              }
             }
           ]
         },

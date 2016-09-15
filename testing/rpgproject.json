@@ -1,20 +1,20 @@
 {
-  "uuid":"8099c6e5-c0b4-4c80-8422-9e5db4974049",
-  "title":"Darkness and Fear",
+  "uuid":"280bdab7-542e-4459-95af-d33487339f2e",
+  "title":"Untitled Project",
   "recentMapName":"",
-  "lastCreatedMapId":2,
+  "lastCreatedMapId":1,
   "startup":{
     "startingLoc":{
-      "map":"Map000002.rpgmap",
-      "x":11.5,
-      "y":11.5
+      "map":"Map000001.rpgmap",
+      "x":5.5,
+      "y":5.5
     },
     "startingParty":[
       0
     ],
     "titlePic":"sys/LordSpirit.jpg",
     "titleMusic":{
-      "sound":"sys/aaron_mcdonald/Titus Andronicus - Villianous Villians Doing Doubious Deeds.mid",
+      "sound":"sys/sean_m_stephens/TitleMoon.mid",
       "volume":1.0,
       "pitch":1.0
     },

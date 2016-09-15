@@ -32,36 +32,41 @@
     "animationId":69
   },
   {
-    "name":"",
+    "name":"Ice",
     "scopeId":2,
     "cost":0,
     "damages":[
       {
-        "typeId":0,
-        "elementId":0,
-        "formula":""
+        "typeId":1,
+        "elementId":5,
+        "formula":"a.mag*2"
       }
     ],
     "effects":[
       
     ],
-    "animationId":0
+    "animationId":14
   },
   {
-    "name":"",
+    "name":"Starve",
     "scopeId":2,
-    "cost":0,
+    "cost":5,
     "damages":[
       {
+        "typeId":2,
+        "elementId":9,
+        "formula":"a.mag"
+      },
+      {
         "typeId":0,
-        "elementId":0,
-        "formula":""
+        "elementId":9,
+        "formula":"a.mag"
       }
     ],
     "effects":[
       
     ],
-    "animationId":0
+    "animationId":58
   },
   {
     "name":"",

@@ -52,112 +52,18 @@
     ]
   },
   {
-    "name":"Hunger",
+    "name":"# Famine",
     "units":[
-      
+      {
+        "enemyIdx":2,
+        "x":255,
+        "y":210
+      }
     ],
     "canEscape":false,
     "escapeChance":0.7,
     "events":[
-      {
-        "conditions":[
-          
-        ],
-        "cmds":[
-          {
-            "jsonClass":"IfCondition",
-            "conditions":[
-              {
-                "conditionTypeId":2,
-                "intValue1":{
-                  "jsonClass":"IntParameter",
-                  "constant":4,
-                  "valueTypeId":0,
-                  "localVariable":"",
-                  "globalVariable":""
-                },
-                "intValue2":{
-                  "jsonClass":"IntParameter",
-                  "constant":1,
-                  "valueTypeId":0,
-                  "localVariable":"",
-                  "globalVariable":""
-                },
-                "operatorId":0,
-                "negate":false
-              }
-            ],
-            "elseBranch":true,
-            "trueCmds":[
-              {
-                "jsonClass":"AddRemoveItem",
-                "add":false,
-                "itemId":{
-                  "jsonClass":"IntParameter",
-                  "constant":4,
-                  "valueTypeId":0,
-                  "localVariable":"",
-                  "globalVariable":""
-                },
-                "quantity":{
-                  "jsonClass":"IntParameter",
-                  "constant":1,
-                  "valueTypeId":0,
-                  "localVariable":"",
-                  "globalVariable":""
-                }
-              }
-            ],
-            "elseCmds":[
-              {
-                "jsonClass":"HealOrDamage",
-                "heal":false,
-                "wholeParty":true,
-                "characterId":0,
-                "hpPercentage":0.5,
-                "mpPercentage":0.5,
-                "removeStatusEffects":true
-              }
-            ]
-          },
-          {
-            "jsonClass":"ShakeScreen",
-            "xAmplitude":{
-              "jsonClass":"FloatParameter",
-              "constant":20.0,
-              "valueTypeId":0,
-              "localVariable":""
-            },
-            "yAmplitude":{
-              "jsonClass":"FloatParameter",
-              "constant":0.0,
-              "valueTypeId":0,
-              "localVariable":""
-            },
-            "frequency":{
-              "jsonClass":"FloatParameter",
-              "constant":4.0,
-              "valueTypeId":0,
-              "localVariable":""
-            },
-            "duration":{
-              "jsonClass":"FloatParameter",
-              "constant":4.0,
-              "valueTypeId":0,
-              "localVariable":""
-            }
-          },
-          {
-            "jsonClass":"ShowText",
-            "lines":[
-              "Hunger grips you!"
-            ],
-            "useCharacterFace":false,
-            "characterId":0
-          }
-        ],
-        "maxFrequency":1
-      }
+      
     ]
   },
   {

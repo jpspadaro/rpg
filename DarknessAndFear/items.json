@@ -76,9 +76,9 @@
     "desc":"",
     "effects":[
       {
-        "keyId":201,
-        "v1":6,
-        "v2":100
+        "keyId":103,
+        "v1":25,
+        "v2":0
       }
     ],
     "sellable":true,
@@ -91,16 +91,30 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"",
-    "desc":"",
+    "name":"Tome of Ice",
+    "desc":"An old spellbook.",
     "effects":[
-      
+      {
+        "keyId":600,
+        "v1":2,
+        "v2":0
+      },
+      {
+        "keyId":304,
+        "v1":2,
+        "v2":0
+      },
+      {
+        "keyId":301,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
+    "price":500,
     "itemTypeId":0,
-    "accessId":0,
-    "scopeId":4,
+    "accessId":1,
+    "scopeId":1,
     "equipType":0,
     "useOnAttack":false,
     "equippedAttackSkillId":0

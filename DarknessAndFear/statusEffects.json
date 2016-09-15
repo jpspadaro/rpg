@@ -79,11 +79,25 @@
     "maxStacks":1
   },
   {
-    "name":"",
+    "name":"Hunger",
     "effects":[
-      
+      {
+        "keyId":306,
+        "v1":-1,
+        "v2":0
+      },
+      {
+        "keyId":102,
+        "v1":-1,
+        "v2":0
+      },
+      {
+        "keyId":100,
+        "v1":-1,
+        "v2":0
+      }
     ],
-    "releaseChancePerTick":10,
+    "releaseChancePerTick":0,
     "maxStacks":1
   },
   {

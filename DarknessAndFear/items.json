@@ -3,7 +3,11 @@
     "name":"Stick",
     "desc":"",
     "effects":[
-      
+      {
+        "keyId":302,
+        "v1":1,
+        "v2":0
+      }
     ],
     "sellable":false,
     "price":100,
@@ -49,28 +53,36 @@
     "equippedAttackSkillId":0
   },
   {
-    "name":"",
+    "name":"Dagger",
     "desc":"",
     "effects":[
-      
+      {
+        "keyId":302,
+        "v1":2,
+        "v2":0
+      }
     ],
     "sellable":true,
-    "price":100,
-    "itemTypeId":0,
+    "price":20,
+    "itemTypeId":2,
     "accessId":0,
     "scopeId":4,
     "equipType":0,
-    "useOnAttack":false,
-    "equippedAttackSkillId":0
+    "useOnAttack":true,
+    "equippedAttackSkillId":1
   },
   {
-    "name":"",
+    "name":"Food",
     "desc":"",
     "effects":[
-      
+      {
+        "keyId":201,
+        "v1":6,
+        "v2":100
+      }
     ],
     "sellable":true,
-    "price":100,
+    "price":5,
     "itemTypeId":0,
     "accessId":0,
     "scopeId":4,

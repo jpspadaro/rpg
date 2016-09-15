@@ -147,9 +147,9 @@
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":19.671875,
-  "editorCenterY":19.59375,
-  "lastGeneratedEventId":1,
+  "editorCenterX":16.5,
+  "editorCenterY":10.0625,
+  "lastGeneratedEventId":3,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

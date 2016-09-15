@@ -1,6 +1,6 @@
 [
   {
-    "name":"Unarmed",
+    "name":"Unarmed Combat",
     "scopeId":2,
     "cost":0,
     "damages":[
@@ -16,20 +16,20 @@
     "animationId":63
   },
   {
-    "name":"",
+    "name":"Knife Combat",
     "scopeId":2,
-    "cost":0,
+    "cost":1,
     "damages":[
       {
         "typeId":0,
-        "elementId":0,
-        "formula":""
+        "elementId":3,
+        "formula":"a.atk*1.5"
       }
     ],
     "effects":[
       
     ],
-    "animationId":0
+    "animationId":69
   },
   {
     "name":"",

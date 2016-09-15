@@ -46,6 +46,24 @@
               ],
               "useCharacterFace":false,
               "characterId":0
+            },
+            {
+              "jsonClass":"SetCharacterName",
+              "characterId":{
+                "jsonClass":"IntParameter",
+                "constant":0,
+                "valueTypeId":0,
+                "localVariable":"",
+                "globalVariable":""
+              },
+              "getPlayerInput":true,
+              "fixedValue":{
+                "jsonClass":"StringParameter",
+                "constant":"",
+                "valueTypeId":0,
+                "localVariable":"",
+                "globalVariable":""
+              }
             }
           ]
         },
@@ -96,52 +114,26 @@
               "allowCancel":false,
               "innerCmds":[
                 [
-                  
+                  {
+                    "jsonClass":"HealOrDamage",
+                    "heal":true,
+                    "wholeParty":true,
+                    "characterId":0,
+                    "hpPercentage":0.0,
+                    "mpPercentage":0.0,
+                    "removeStatusEffects":true
+                  }
                 ],
                 [
                   {
-                    "jsonClass":"ShowText",
-                    "lines":[
-                      "Hunger grips you."
-                    ],
-                    "useCharacterFace":false,
-                    "characterId":0
-                  },
-                  {
-                    "jsonClass":"ShakeScreen",
-                    "xAmplitude":{
-                      "jsonClass":"FloatParameter",
-                      "constant":20.0,
+                    "jsonClass":"StartBattle",
+                    "encounterId":{
+                      "jsonClass":"IntParameter",
+                      "constant":1,
                       "valueTypeId":0,
-                      "localVariable":""
-                    },
-                    "yAmplitude":{
-                      "jsonClass":"FloatParameter",
-                      "constant":0.0,
-                      "valueTypeId":0,
-                      "localVariable":""
-                    },
-                    "frequency":{
-                      "jsonClass":"FloatParameter",
-                      "constant":4.0,
-                      "valueTypeId":0,
-                      "localVariable":""
-                    },
-                    "duration":{
-                      "jsonClass":"FloatParameter",
-                      "constant":2.0,
-                      "valueTypeId":0,
-                      "localVariable":""
+                      "localVariable":"",
+                      "globalVariable":""
                     }
-                  },
-                  {
-                    "jsonClass":"HealOrDamage",
-                    "heal":false,
-                    "wholeParty":false,
-                    "characterId":0,
-                    "hpPercentage":0.5,
-                    "mpPercentage":0.5,
-                    "removeStatusEffects":false
                   }
                 ],
                 [
@@ -154,7 +146,7 @@
             {
               "jsonClass":"ShowText",
               "lines":[
-                "[Hunger is a rare but real danger. If you can not satiate it, then you lose half your HP and MP.]"
+                "[Hunger is a rare but real danger. If you can not satiate it, then you gradually lose your HP and MP.]"
               ],
               "useCharacterFace":false,
               "characterId":0
@@ -203,6 +195,15 @@
               ],
               "useCharacterFace":false,
               "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000002.rpgmap",
+                "x":3.5,
+                "y":11.5
+              },
+              "transitionId":1
             }
           ]
         }

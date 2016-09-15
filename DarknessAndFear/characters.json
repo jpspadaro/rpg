@@ -4,8 +4,8 @@
     "subtitle":"Adventurer",
     "description":"",
     "sprite":{
-      "name":"sys/vx_chara01_b.png",
-      "spriteIndex":5,
+      "name":"sys/$vx_chara09_d.png",
+      "spriteIndex":0,
       "dir":0,
       "step":1
     },
@@ -49,6 +49,65 @@
       "mre":{
         "base":10.0,
         "perLevel":2.0
+      }
+    },
+    "startingEquipment":[
+      
+    ],
+    "equipFixed":[
+      
+    ]
+  },
+  {
+    "name":"Clara",
+    "subtitle":"",
+    "description":"",
+    "sprite":{
+      "name":"sys/vx_chara03_c.png",
+      "spriteIndex":5,
+      "dir":0,
+      "step":1
+    },
+    "face":{
+      "faceset":"sys/mackie/face_m01a_1.png",
+      "faceX":2,
+      "faceY":1
+    },
+    "initLevel":1,
+    "maxLevel":50,
+    "charClass":1,
+    "progressions":{
+      "exp":{
+        "base":300.0,
+        "perLevel":100.0
+      },
+      "mhp":{
+        "base":50.0,
+        "perLevel":10.0
+      },
+      "mmp":{
+        "base":20.0,
+        "perLevel":4.0
+      },
+      "atk":{
+        "base":10.0,
+        "perLevel":2.0
+      },
+      "spd":{
+        "base":10.0,
+        "perLevel":2.0
+      },
+      "mag":{
+        "base":10.0,
+        "perLevel":2.0
+      },
+      "arm":{
+        "base":10.0,
+        "perLevel":1.0
+      },
+      "mre":{
+        "base":10.0,
+        "perLevel":1.0
       }
     },
     "startingEquipment":[

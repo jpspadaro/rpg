@@ -141,13 +141,13 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":true,
-  "battleBackground":"sys/Etolier/01sougen.jpg",
+  "battleBackground":"sys/Etolier/08konkuri.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":15.015625,
+  "editorCenterX":16.5,
   "editorCenterY":10.40625,
   "lastGeneratedEventId":5,
   "randomEncounterSettings":{

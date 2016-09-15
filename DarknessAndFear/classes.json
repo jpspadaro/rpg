@@ -17,10 +17,17 @@
     "unarmedAttackSkillId":0,
     "canUseItems":[
       0,
-      1
+      1,
+      2,
+      3,
+      4
     ],
     "effects":[
-      
+      {
+        "keyId":200,
+        "v1":6,
+        "v2":100
+      }
     ],
     "learnedSkills":[
       {

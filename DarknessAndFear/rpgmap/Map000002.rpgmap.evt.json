@@ -143,19 +143,6 @@
       ]
     },
     {
-      "id":7,
-      "name":"Event00007",
-      "x":13.5,
-      "y":3.5,
-      "states":[
-        
-      ],
-      "eventClassId":2,
-      "params":[
-        
-      ]
-    },
-    {
       "id":3,
       "name":"Event00003",
       "x":6.5,

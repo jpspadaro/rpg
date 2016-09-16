@@ -5,14 +5,14 @@
   "lastCreatedMapId":2,
   "startup":{
     "startingLoc":{
-      "map":"Map000002.rpgmap",
-      "x":11.5,
-      "y":11.5
+      "map":"Map000001.rpgmap",
+      "x":5.5,
+      "y":5.5
     },
     "startingParty":[
       0
     ],
-    "titlePic":"sys/LordSpirit.jpg",
+    "titlePic":"splash.png",
     "titleMusic":{
       "sound":"sys/aaron_mcdonald/Titus Andronicus - Villianous Villians Doing Doubious Deeds.mid",
       "volume":1.0,
